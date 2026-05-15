@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Space+Mono:wght@400;700&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #0c0c0b;
+  color: #f0ebe0;
+  font-family: 'Playfair Display', Georgia, serif;
+  min-height: 100vh;
+}
+
+.wrap {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+@media (max-width: 480px) {
+  .wrap { padding: 2.5rem 1.5rem; }
+}
+
+.logo-wrap {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #f0ebe0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 3px;
+}
+
+.logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.eyebrow {
+  font-family: 'Space Mono', monospace;
+  font-size: .58rem;
+  letter-spacing: .28em;
+  text-transform: uppercase;
+  color: #B02222;
+  margin-bottom: 1.2rem;
+}
+
+.name {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.8rem, 8vw, 5rem);
+  font-weight: 900;
+  line-height: 1.02;
+  letter-spacing: -.03em;
+  color: #f0ebe0;
+  margin-bottom: .6rem;
+}
+
+.name em { font-style: italic; color: #B02222; }
+
+.role {
+  font-family: 'Space Mono', monospace;
+  font-size: .62rem;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: #7a7468;
+  margin-bottom: 2.5rem;
+  line-height: 2;
+}
+
+.desc-first {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.08rem;
+  font-style: italic;
+  color: #f0ebe0;
+  line-height: 1.75;
+  margin-bottom: 1.2rem;
+  border-left: 2px solid #8B1A1A;
+  padding-left: 1.2rem;
+  max-width: 520px;
+}
+
+.desc {
+  font-size: .97rem;
+  line-height: 1.86;
+  color: #9a9088;
+  margin-bottom: 1.4rem;
+  max-width: 520px;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-top: 1rem;
+}
+
+.soc {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .5rem 1rem;
+  border: 1px solid #271616;
+  background: transparent;
+  color: #7a7468;
+  font-family: 'Space Mono', monospace;
+  font-size: .58rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: border-color .2s, color .2s, transform .1s, background .2s;
+}
+
+.soc:hover { border-color: #8B1A1A; color: #B02222; }
+.soc:active { transform: scale(0.98); background: #1a0a0a; border-color: #8B1A1A; color: #B02222; }
+
+.soc svg { flex-shrink: 0; }
+
+.footer-line {
+  margin-top: 4rem;
+  font-family: 'Space Mono', monospace;
+  font-size: .52rem;
+  letter-spacing: .1em;
+  color: #524848;
+}
