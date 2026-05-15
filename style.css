@@ -9,28 +9,33 @@ body {
   min-height: 100vh;
 }
 
+/* ── DESKTOP: dos columnas ── */
 .wrap {
   min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  align-items: center;
+}
+
+.col-left {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
-  max-width: 680px;
-  margin: 0 auto;
-  padding: 3rem 2rem;
 }
 
-@media (min-height: 700px) {
-  .wrap {
-    padding: 6rem 2rem 4rem;
-    justify-content: flex-start;
-  }
+.col-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  border-left: 1px solid #1c1212;
+  padding-left: 4rem;
 }
 
-@media (max-width: 480px) {
-  .wrap { padding: 2.5rem 1.5rem; }
-}
-
+/* ── LOGO ── */
 .logo-wrap {
   width: 52px;
   height: 52px;
@@ -49,6 +54,7 @@ body {
   object-fit: contain;
 }
 
+/* ── EYEBROW ── */
 .eyebrow {
   font-family: 'Space Mono', monospace;
   font-size: .58rem;
@@ -58,9 +64,10 @@ body {
   margin-bottom: 1.2rem;
 }
 
+/* ── NAME ── */
 .name {
   font-family: 'Playfair Display', serif;
-  font-size: clamp(2.8rem, 8vw, 5rem);
+  font-size: clamp(3rem, 5vw, 5.5rem);
   font-weight: 900;
   line-height: 1.02;
   letter-spacing: -.03em;
@@ -70,6 +77,7 @@ body {
 
 .name em { font-style: italic; color: #B02222; }
 
+/* ── ROLE ── */
 .role {
   font-family: 'Space Mono', monospace;
   font-size: .62rem;
@@ -80,31 +88,11 @@ body {
   line-height: 2;
 }
 
-.desc-first {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.08rem;
-  font-style: italic;
-  color: #f0ebe0;
-  line-height: 1.75;
-  margin-bottom: 1.2rem;
-  border-left: 2px solid #8B1A1A;
-  padding-left: 1.2rem;
-  max-width: 520px;
-}
-
-.desc {
-  font-size: .97rem;
-  line-height: 1.86;
-  color: #9a9088;
-  margin-bottom: 1.4rem;
-  max-width: 520px;
-}
-
+/* ── SOCIALS ── */
 .socials {
   display: flex;
   flex-wrap: wrap;
   gap: .5rem;
-  margin-top: 1rem;
 }
 
 .soc {
@@ -125,13 +113,47 @@ body {
 
 .soc:hover { border-color: #8B1A1A; color: #B02222; }
 .soc:active { transform: scale(0.98); background: #1a0a0a; border-color: #8B1A1A; color: #B02222; }
-
 .soc svg { flex-shrink: 0; }
 
+/* ── TEXT ── */
+.desc-first {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.08rem;
+  font-style: italic;
+  color: #f0ebe0;
+  line-height: 1.75;
+  border-left: 2px solid #8B1A1A;
+  padding-left: 1.2rem;
+}
+
+.desc {
+  font-size: .97rem;
+  line-height: 1.86;
+  color: #9a9088;
+}
+
+/* ── FOOTER ── */
 .footer-line {
-  margin-top: 4rem;
   font-family: 'Space Mono', monospace;
   font-size: .52rem;
   letter-spacing: .1em;
   color: #524848;
+  margin-top: 1rem;
+}
+
+/* ── MOBILE: una columna ── */
+@media (max-width: 768px) {
+  .wrap {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    padding: 3rem 1.5rem;
+    align-items: flex-start;
+  }
+
+  .col-right {
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid #1c1212;
+    padding-top: 2rem;
+  }
 }
