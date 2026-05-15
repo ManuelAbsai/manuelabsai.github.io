@@ -20,6 +20,13 @@ body {
   padding: 3rem 2rem;
 }
 
+@media (min-height: 700px) {
+  .wrap {
+    padding: 6rem 2rem 4rem;
+    justify-content: flex-start;
+  }
+}
+
 @media (max-width: 480px) {
   .wrap { padding: 2.5rem 1.5rem; }
 }
