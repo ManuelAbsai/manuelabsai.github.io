@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article class="post-wrap">
+  <header class="post-header">
+    <div class="eyebrow">■ {{ page.tag | default: "Artículo" }}</div>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">
+      <span>{{ page.date | date: "%d %B %Y" }}</span>
+      {% if page.readTime %}<span>· {{ page.readTime }} lectura</span>{% endif %}
+    </div>
+  </header>
+  <div class="post-body">
+    {{ content }}
+  </div>
+  <div class="post-footer">
+    <a href="/articulos" class="rlink">← Volver a artículos</a>
+  </div>
+</article>
+
+<footer>
+  <div class="ft-logo">Manuel Absaí <span class="ft-dot">■</span></div>
+  <div class="ft-copy">© 2026 Manuel Absaí · Todos los derechos reservados</div>
+</footer>
