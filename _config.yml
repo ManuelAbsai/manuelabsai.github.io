@@ -1,0 +1,10 @@
+title: Manuel Absaí
+description: Psicólogo y psicoanalista en Saltillo, Coahuila. Ensayos y reflexiones sobre subjetividad contemporánea, cultura y tecnología.
+url: "https://manuelabsai.com"
+lang: es
+
+permalink: /articulos/:title/
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
