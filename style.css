@@ -112,3 +112,16 @@ footer { max-width: 1200px; margin: 0 auto; padding: 2rem; display: flex; justif
 .ft-logo { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 900; color: #7a7468; display: flex; align-items: center; gap: .3rem; }
 .ft-dot { color: #8B1A1A; }
 .ft-copy { font-family: 'Space Mono', monospace; font-size: .54rem; letter-spacing: .08em; color: #524848; }
+
+/* ARTÍCULO INDIVIDUAL */
+.post-wrap { max-width: 720px; margin: 0 auto; padding: 56px 2rem 72px; }
+@media (max-width: 700px) { .post-wrap { padding: 40px 1.25rem 56px; } }
+.post-header { margin-bottom: 3rem; border-bottom: 1px solid #1c1212; padding-bottom: 2rem; }
+.post-title { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 900; line-height: 1.08; color: #f0ebe0; margin-bottom: .8rem; }
+.post-meta { font-family: 'Space Mono', monospace; font-size: .58rem; letter-spacing: .1em; color: #7a7468; }
+.post-body { font-size: 1.05rem; line-height: 1.9; color: #9a9088; }
+.post-body p { margin-bottom: 1.5rem; }
+.post-body h2 { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 700; color: #f0ebe0; margin: 2.5rem 0 1rem; }
+.post-body h3 { font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: 700; color: #f0ebe0; margin: 2rem 0 .8rem; }
+.post-body blockquote { border-left: 2px solid #8B1A1A; padding-left: 1.2rem; font-style: italic; color: #f0ebe0; margin: 1.5rem 0; }
+.post-footer { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #1c1212; }
