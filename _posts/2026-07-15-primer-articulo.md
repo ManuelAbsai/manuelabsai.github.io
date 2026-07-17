@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Tu título aquí"
+title: "¿Qué es el marxismo? (III). Introducción a la teoría económica marxista"
 date: 2026-07-15
 tag: Ensayo
 readTime: 5 min
-description: Tu descripción corta aquí
+description: Descripcion de un articulo de prueba
 ---
 
 ¿Qué es el marxismo? (III). Introducción a la teoría económica marxista
@@ -12,14 +12,17 @@ description: Tu descripción corta aquí
 Bajo el impacto de la crisis del capitalismo, muchos trabajadores han empezado a interesarse por la economía, tratando de entender las fuerzas que gobiernan su existencia. El objetivo de este trabajo consiste en ofrecer, no una exposición completa de la teoría económica, sino una introducción a las reglas básicas de funcionamiento del sistema capitalista.
 La superficialidad de los economistas procapitalistas se revela por su incapacidad para entender la crisis de su sistema. Su función es esconder la explotación de la clase obrera y “demostrar” la superioridad del sistema capitalista. Sin embargo, sus “teorías” y “soluciones” no pueden hacer nada para remediar la decadencia del capitalismo. Sólo la transformación socialista de la sociedad y la introducción de una economía planificada puede acabar con el infierno del desempleo, la recesión y el caos.
 El ala derecha de la dirección del movimiento obrero ha sustituido a Keynes, su viejo ídolo, por soluciones económicas “ortodoxas”: recortes presupuestarios, moderación salarial y deflación monetaria. Por su parte, la izquierda reformista todavía se aferra a las políticas capitalistas del pasado, de estímulo a través del consumo, restricciones a las importaciones, etc. – que ya han demostrado su total ineficacia.
+
 Sólo un análisis marxista del capitalismo les permite a los trabajadores conscientes refutar las mentiras de los economistas burgueses y luchar contra su influencia dentro del movimiento obrero.
 Las condiciones para la existencia del capitalismo
 La producción moderna se concentra en manos de grandes empresas. Unilever, ICI, Ford, British Petroleum… Estas grandes empresas dominan nuestras vidas. Es cierto que hay empresas pequeñas, pero representan el modo de producción del pasado, no el del presente. La producción moderna es esencialmente masiva, a gran escala.
 Hoy en día, 200 empresas y 35 bancos (o empresas financieras) controlan la economía británica, representando el 85% de la producción nacional. Este desarrollo se llevó a cabo durante los últimos siglos a través de la competencia despiadada, las crisis y las guerras. En el momento en que los economistas clásicos predecían el surgimiento del “libre comercio”, Marx explicaba que la competencia conduciría al monopolio, al quedar eliminadas las empresas más débiles.
 A primera vista, podría parecer que la producción de bienes está destinada principalmente a satisfacer las necesidades de la población. Esto es obviamente una necesidad que ha de ser respondida por cualquier forma de sociedad. Pero bajo el capitalismo, las mercancías no sólo se producen para satisfacer las necesidades de la gente sino principalmente para la venta. Esta es la función esencial de la industria capitalista. En palabras del Señor Stokes, ex presidente de British Leyland: “Estoy en el negocio para ganar dinero, no para hacer coches”. Esta es una perfecta expresión de las aspiraciones de la clase capitalista en su conjunto.
+
 El modo de producción capitalista implica la existencia de una serie de condiciones. En primer lugar, debe existir una gran clase de trabajadores desprovistos de propiedad [1] que. por lo tanto, se ven obligados a vender su fuerza de trabajo para vivir. Esto significa que, bajo el capitalismo, el concepto conservador de una “democracia de propietarios” es un absurdo, porque si la masa de la población poseyera la propiedad suficiente para satisfacer sus propias necesidades, los capitalistas no encontrarían trabajadores para generar sus ganancias.
 En segundo lugar, los medios de producción deben estar concentrados en manos de los capitalistas. Durante muchos siglos, los pequeños agricultores y los que eran dueños de sus propios medios de subsistencia fueron eliminados sin piedad. Los capitalistas y los terratenientes se apropiaron de sus medios de vida, y contrataron asalariados para trabajar y producir plusvalía.
-Valor y mercancías
+Valor y mercancías.
+
 ¿Cómo funciona el capitalismo? ¿Cómo se explota a los trabajadores? ¿De dónde viene el beneficio? ¿Qué causa las recesiones?
 Para responder a estas preguntas, primero debemos descubrir el problema clave, es decir, responder a la pregunta: ¿Qué es el valor? Una vez que este misterio esté resuelto, todo lo demás quedará dilucidado. La comprensión de lo que es el valor es esencial para la comprensión de la economía capitalista.
 Para empezar, todas las empresas capitalistas producen bienes o servicios – o más correctamente, producen mercancías, es decir, bienes o servicios que sólo se producen para la venta. Por supuesto, uno puede producir algo para su propio uso personal. Antes del advenimiento del capitalismo, es lo que mucha gente hacía. Pero estos productos no eran mercancías. El capitalismo se caracteriza en primer lugar, en palabras de Marx, por “una inmensa acumulación de mercancías”. Es por esta razón que Marx comenzó su investigación sobre el capitalismo analizando el carácter de la propia mercancía.
