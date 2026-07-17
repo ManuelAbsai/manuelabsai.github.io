@@ -1,0 +1,29 @@
+---
+layout: default
+title: Artículos
+permalink: /articulos/
+---
+
+<div class="art-wrap">
+  <div class="eyebrow">■ Archivo</div>
+  <h1 class="page-title">Todos los<br /><em>artículos</em></h1>
+  <p class="page-sub">Ensayos, reflexiones y análisis sobre los fenómenos que atraviesan nuestra época.</p>
+  <div class="grid">
+    {% for post in site.posts %}
+    <a href="{{ post.url }}" class="card" style="text-decoration:none">
+      <div class="card-tag">■ {{ post.tag }}</div>
+      <div class="card-title">{{ post.title }}</div>
+      <p class="card-exc">{{ post.description }}</p>
+      <div class="card-foot">
+        <span class="card-date">{{ post.date | date: "%d %b %Y" }}</span>
+        <span class="card-rt">{{ post.readTime }} lectura</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+
+<footer>
+  <div class="ft-logo">Manuel Absaí <span class="ft-dot">■</span></div>
+  <div class="ft-copy">© 2026 Manuel Absaí · Todos los derechos reservados</div>
+</footer>
