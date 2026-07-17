@@ -4,7 +4,7 @@ title: "¿Qué es el marxismo? (III). Introducción a la teoría económica marx
 date: 2026-07-15
 tag: Ensayo
 readTime: 5 min
-featured: false
+featured: true
 description: Descripcion de un articulo de prueba
 ---
 
