@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Artículos
+description: Ensayos, reflexiones y análisis sobre subjetividad, cultura digital, tecnología y psicoanálisis.
 permalink: /articulos/
 ---
 
@@ -8,9 +9,20 @@ permalink: /articulos/
   <div class="eyebrow">■ Archivo</div>
   <h1 class="page-title">Todos los<br /><em>artículos</em></h1>
   <p class="page-sub">Ensayos, reflexiones y análisis sobre los fenómenos que atraviesan nuestra época.</p>
+
+  {% if site.posts.size > 0 %}
+  <div class="tags">
+    <button class="tb on" data-tag="Todos">Todos</button>
+    <button class="tb" data-tag="Ensayo">Ensayo</button>
+    <button class="tb" data-tag="Análisis">Análisis</button>
+    <button class="tb" data-tag="Reflexión">Reflexión</button>
+    <button class="tb" data-tag="Evento">Evento</button>
+    <button class="tb" data-tag="Nota">Nota</button>
+  </div>
+
   <div class="grid">
     {% for post in site.posts %}
-    <a href="{{ post.url }}" class="card" style="text-decoration:none">
+    <a class="card art-card" href="{{ post.url }}" data-tag="{{ post.tag }}">
       <div class="card-tag">■ {{ post.tag }}</div>
       <div class="card-title">{{ post.title }}</div>
       <p class="card-exc">{{ post.description }}</p>
@@ -21,9 +33,25 @@ permalink: /articulos/
     </a>
     {% endfor %}
   </div>
+  {% else %}
+  <div class="empty-box">
+    <p>Aún no hay artículos publicados. Pronto encontrarás aquí ensayos y reflexiones sobre subjetividad, cultura digital, tecnología y psicoanálisis.</p>
+  </div>
+  {% endif %}
 </div>
 
-<footer>
-  <div class="ft-logo">Manuel Absaí <span class="ft-dot">■</span></div>
-  <div class="ft-copy">© 2026 Manuel Absaí · Todos los derechos reservados</div>
-</footer>
+<script>
+  (function () {
+    var btns = document.querySelectorAll('.tb');
+    var cards = document.querySelectorAll('.art-card');
+    btns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        var tag = b.dataset.tag;
+        btns.forEach(function (x) { x.classList.toggle('on', x === b); });
+        cards.forEach(function (c) {
+          c.classList.toggle('hidden', tag !== 'Todos' && c.dataset.tag !== tag);
+        });
+      });
+    });
+  })();
+</script>
