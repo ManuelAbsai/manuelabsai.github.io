@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="{{ page.description | default: site.description }}" />
   <meta name="author" content="Manuel Absaí" />
-  <title>{{ page.title | default: site.title }}</title>
+  <title>{% if page.title and page.url != "/" %}{{ page.title }} | Manuel Absaí{% else %}Manuel Absaí | Psicólogo y Psicoanalista en Saltillo{% endif %}</title>
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
   <link rel="icon" type="image/jpeg" href="/assets/logo.jpg" />
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
+
   <nav class="nav">
     <div class="nav-in">
       <a class="logo" href="/">
@@ -17,34 +19,43 @@
         Manuel Absaí
       </a>
       <div class="nav-menu">
-        <a class="ni" href="/">Inicio</a>
-        <a class="ni" href="/articulos">Artículos</a>
-        <a class="ni" href="/sobre-mi">Sobre mí</a>
-        <a class="ni" href="/contacto">Contacto</a>
+        <a class="ni {% if page.url == '/' %}on{% endif %}" href="/">Inicio</a>
+        <a class="ni {% if page.url contains '/articulos' %}on{% endif %}" href="/articulos/">Artículos</a>
+        <a class="ni {% if page.url contains '/sobre-mi' %}on{% endif %}" href="/sobre-mi/">Sobre mí</a>
+        <a class="ni {% if page.url contains '/contacto' %}on{% endif %}" href="/contacto/">Contacto</a>
       </div>
-      <button class="nav-toggle" id="hamburger" onclick="toggleMenu()" aria-label="Menú">
+      <button class="nav-toggle" id="hamburger" aria-label="Menú">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
       </button>
     </div>
     <div class="nav-mobile" id="nav-mobile">
-      <a class="ni-mob" href="/">Inicio</a>
-      <a class="ni-mob" href="/articulos">Artículos</a>
-      <a class="ni-mob" href="/sobre-mi">Sobre mí</a>
-      <a class="ni-mob" href="/contacto">Contacto</a>
+      <a class="ni-mob {% if page.url == '/' %}on{% endif %}" href="/">Inicio</a>
+      <a class="ni-mob {% if page.url contains '/articulos' %}on{% endif %}" href="/articulos/">Artículos</a>
+      <a class="ni-mob {% if page.url contains '/sobre-mi' %}on{% endif %}" href="/sobre-mi/">Sobre mí</a>
+      <a class="ni-mob {% if page.url contains '/contacto' %}on{% endif %}" href="/contacto/">Contacto</a>
     </div>
   </nav>
 
   {{ content }}
 
+  <footer>
+    <div class="ft-logo">Manuel Absaí <span class="ft-dot">■</span></div>
+    <div class="ft-copy">© 2026 Manuel Absaí · Todos los derechos reservados</div>
+  </footer>
+
   <script>
-    let menuOpen = false;
-    function toggleMenu() {
-      menuOpen = !menuOpen;
-      document.getElementById('nav-mobile').classList.toggle('open', menuOpen);
-      document.getElementById('hamburger').innerHTML = menuOpen
-        ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>'
-        : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
-    }
+    (function () {
+      var open = false;
+      var btn = document.getElementById('hamburger');
+      var menu = document.getElementById('nav-mobile');
+      var ICON_OPEN  = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>';
+      var ICON_CLOSED = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+      btn.addEventListener('click', function () {
+        open = !open;
+        menu.classList.toggle('open', open);
+        btn.innerHTML = open ? ICON_OPEN : ICON_CLOSED;
+      });
+    })();
   </script>
 </body>
 </html>
