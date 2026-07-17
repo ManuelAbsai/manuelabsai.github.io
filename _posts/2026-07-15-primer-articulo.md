@@ -7,9 +7,9 @@ readTime: 5 min
 description: Descripcion de un articulo de prueba
 ---
 
-##¿Qué es el marxismo? (III). Introducción a la teoría económica marxista
+## ¿Qué es el marxismo? (III). Introducción a la teoría económica marxista
 
-###Bajo el impacto de la crisis del capitalismo, muchos trabajadores han empezado a interesarse por la economía, tratando de entender las fuerzas que gobiernan su existencia. El objetivo de este trabajo consiste en ofrecer, no una exposición completa de la teoría económica, sino una introducción a las reglas básicas de funcionamiento del sistema capitalista.
+### Bajo el impacto de la crisis del capitalismo, muchos trabajadores han empezado a interesarse por la economía, tratando de entender las fuerzas que gobiernan su existencia. El objetivo de este trabajo consiste en ofrecer, no una exposición completa de la teoría económica, sino una introducción a las reglas básicas de funcionamiento del sistema capitalista.
 La superficialidad de los economistas procapitalistas se revela por su incapacidad para entender la crisis de su sistema. Su función es esconder la explotación de la clase obrera y “demostrar” la superioridad del sistema capitalista. Sin embargo, sus “teorías” y “soluciones” no pueden hacer nada para remediar la decadencia del capitalismo. Sólo la transformación socialista de la sociedad y la introducción de una economía planificada puede acabar con el infierno del desempleo, la recesión y el caos.
 El ala derecha de la dirección del movimiento obrero ha sustituido a Keynes, su viejo ídolo, por soluciones económicas “ortodoxas”: recortes presupuestarios, moderación salarial y deflación monetaria. Por su parte, la izquierda reformista todavía se aferra a las políticas capitalistas del pasado, de estímulo a través del consumo, restricciones a las importaciones, etc. – que ya han demostrado su total ineficacia.
 
