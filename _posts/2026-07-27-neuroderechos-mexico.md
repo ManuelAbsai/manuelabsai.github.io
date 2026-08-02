@@ -4,7 +4,7 @@ title: "Neuroderechos en México: la ley que no llega y la tecnología que ya es
 date: 2026-07-27
 tag: Análisis
 readTime: 8 min
-featured: true
+featured: false
 description: Chile ya tiene una sentencia, cuatro estados de la Unión Americana ya legislaron y la UNESCO ya fijó un estándar mundial. México lleva tres años discutiendo iniciativas que no se votan.
 ---
 
