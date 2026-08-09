@@ -4,7 +4,7 @@ title: "Un chatbot no puede ser tu terapeuta"
 date: 2026-08-02
 tag: Ensayo
 readTime: 13 min
-featured: true
+featured: false
 description: Casi 92 mil estudiantes mexicanos usaron inteligencia artificial como apoyo emocional y el 88% dijo que le sirvió. Ese número no mide lo que parece medir.
 ---
 
