@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "El agua no se vende: crónica de una marcha en Saltillo"
+title: "El agua no se vende: marcha antisionista en Saltillo"
 date: 2026-08-09
 tag: Evento
 readTime: 9 min
