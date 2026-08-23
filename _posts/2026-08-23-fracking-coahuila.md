@@ -124,7 +124,7 @@ Hay también un vacío normativo específico. La Auditoría Superior de la Feder
 
 Y volvamos al criterio con que se excluyó a Veracruz, la densidad poblacional e impacto social. Coahuila tiene 20 habitantes por kilómetro cuadrado. Donde hay más gente hay más votos, más cobertura y más capacidad de estorbar. Donde hay menos, el costo político de contaminar baja. La zona de sacrificio no se elige por geología, se elige por cuánta resistencia se puede esperar, y nosotros salimos baratos en ese cálculo.
 
-## Qué habría que exigir
+## Qué exigir
 
 Pedir mejores estudios de impacto ambiental supone que el problema es de información, y que las instituciones actuarían distinto si supieran más, llevan tres décadas sabiendo lo suficiente y no hace diferencia.
 
