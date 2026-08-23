@@ -4,7 +4,7 @@ title: "El agua no se vende: marcha antisionista en Saltillo"
 date: 2026-08-09
 tag: Evento
 readTime: 9 min
-featured: true
+featured: false
 description: El 1 de agosto marchamos del Tec de Saltillo a Plaza de Armas contra un convenio firmado en Chihuahua hace tres años. Éramos pocos, hacía mucho calor, y las consignas no se apagaron en todo el trayecto.
 ---
 
