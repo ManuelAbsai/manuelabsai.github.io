@@ -128,11 +128,11 @@ Y volvamos al criterio con que se excluyó a Veracruz, la densidad poblacional e
 
 Pedir mejores estudios de impacto ambiental supone que el problema es de información, y que las instituciones actuarían distinto si supieran más, llevan tres décadas sabiendo lo suficiente y no hace diferencia.
 
-**Lo primero **es la apertura completa de los expedientes, contratos, volúmenes de agua comprometidos, composición química de los fluidos de fractura, resultados de los pozos que ya operan y destino del agua de retorno. Sin eso no hay discusión posible, solo opiniones sobre un asunto que nadie puede verificar.
+**Lo primero** es la apertura completa de los expedientes, contratos, volúmenes de agua comprometidos, composición química de los fluidos de fractura, resultados de los pozos que ya operan y destino del agua de retorno. Sin eso no hay discusión posible, solo opiniones sobre un asunto que nadie puede verificar.
 
-**Lo segundo **es que quienes ponen el cuerpo tengan poder de decisión. Comités electos por los trabajadores de Pemex y de las contratistas, junto con delegados de las comunidades, con acceso a las instalaciones y capacidad real de detener una operación insegura. El que baja al pozo sabe antes que nadie cuándo algo va mal, y hoy no tiene ninguna herramienta para siquiera comunicarlo. Ciento veinte muertos sin un solo responsable en la cárcel es lo que pasa cuando esa herramienta no existe.
+**Lo segundo** es que quienes ponen el cuerpo tengan poder de decisión. Comités electos por los trabajadores de Pemex y de las contratistas, junto con delegados de las comunidades, con acceso a las instalaciones y capacidad real de detener una operación insegura. El que baja al pozo sabe antes que nadie cuándo algo va mal, y hoy no tiene ninguna herramienta para siquiera comunicarlo. Ciento veinte muertos sin un solo responsable en la cárcel es lo que pasa cuando esa herramienta no existe.
 
-**Lo tercero **es que las consultas obliguen. Lo del Cerro del Caballo, donde el 97% se pronunció y la autoridad autorizó de todas formas.
+**Lo tercero** es que las consultas obliguen. Lo del Cerro del Caballo, donde el 97% se pronunció y la autoridad autorizó de todas formas.
 
 Y **lo cuarto**, la propiedad nacional del subsuelo debe significar algo. Hoy la nación es dueña en el papel mientras la renta se va por contratos de servicios, que es la misma operación del carbón con otro nombre.
 
