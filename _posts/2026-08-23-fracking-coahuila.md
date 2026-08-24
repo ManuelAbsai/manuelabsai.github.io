@@ -64,7 +64,7 @@ Por eso desconfío del argumento de que el problema del fracking es técnico y s
 
 ## Lo que el extractivismo le hace a la salud
 
-Existe literatura sobre esto, no es abundante ni concluyente en todo y la mayoría son estudios de Estados Unidos, con diseños cualitativos o de autorreporte, y ninguno se ha hecho en Coahuila. Nadie ha medido esto aquí, y esa ausencia también importa, porque lo que no se mide no se puede reclamar.
+Existe literatura sobre esto, no es abundante ni concluyente en todo y la mayoría son estudios de Estados Unidos, con diseños cualitativos o de autorreporte, y ninguno se ha hecho en Coahuila. Nadie ha medido esto aquí, y esa ausencia es importante, porque lo que no se mide no se puede reclamar.
 
 En 2018, un equipo encabezado por Jameson Hirsch publicó en el *International Journal of Mental Health and Addiction* una revisión titulada *Psychosocial Impact of Fracking*. El hallazgo central es que aunque quienes viven en comunidades con fracking pueden experimentar [beneficios iniciales mínimos](https://link.springer.com/article/10.1007/s11469-017-9792-5), como ingresos por arrendamiento de tierras o desarrollo de infraestructura, también experimentan preocupación, ansiedad y depresión relacionadas con el estilo de vida, la salud, la seguridad y la seguridad financiera. Hay una formulación de esa revisión que describe a Coahuila: comunidades enteras pueden experimentar trauma colectivo como resultado del ciclo de auge y caída que ocurre cuando estas industrias irrumpen en la vida comunitaria. Los autores señalan además que las comunidades afectadas suelen ser ya vulnerables, pobres, rurales o indígenas, y que pueden seguir experimentando los efectos durante generaciones.
 
@@ -110,7 +110,7 @@ El país destina a salud mental el [1.3% de su gasto en salud](https://ciep.mx/s
 
 ## El agua y el Estado
 
-Hace tres semanas escribí en este mismo sitio sobre la marcha contra el convenio hídrico entre Chihuahua e Israel. El patrón que aparece aquí es el mismo, y la repetición no es coincidencia sino método.
+Hace dos semanas escribí aquí sobre el convenio hídrico entre Chihuahua e Israel. Lo que se repite en los dos casos es el orden de las cosas: primero se firma, después se opera, y la información aparece cuando ya no sirve para discutir.
 
 El comité científico recomendó que cualquier eventual explotación [use exclusivamente agua salada](https://www.zocalo.com.mx/luz-verde-a-fracking-le-da-viabilidad-a-coahuila-confirman-cuatro-cuencas/) extraída del subsuelo para no afectar reservas de agua dulce. José Antonio Hernández Espriú, director de la Facultad de Ingeniería de la UNAM, comentó que no debería usarse agua dulce de ninguna manera.
 
