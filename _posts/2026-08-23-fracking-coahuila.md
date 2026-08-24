@@ -18,7 +18,7 @@ Las organizaciones de la Alianza Mexicana Contra el Fracking le pidieron al comi
 
 Diez días después, el 16 de agosto, hubo una movilización contra el fracking en la Alameda Zaragoza de Saltillo, convocada por Noreste Sin Fracking, un frente que reúne a más de noventa organizaciones de Coahuila, Nuevo León y Tamaulipas. La consigna fue: **el noreste no será zona de sacrificio**.
 
-Estuve ahí, por convicción y como militante del PCR (Partido Comunista Revolucionario). Este texto llega una semana después.
+Estuve ahí, por convicción y como militante del [PCR (Partido Comunista Revolucionario)](https://marxismo.mx/). Este texto llega una semana después.
 
 ## Debajo de nuestros pies
 
