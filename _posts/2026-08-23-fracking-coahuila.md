@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Fracking en Coahuila: quién decide, quién cobra y quién se enferma"
+title: "Fracking en Coahuila: el noreste no será zona de sacrificio"
 date: 2026-08-23
 tag: Análisis
 readTime: 20 min
 featured: true
-description: El 6 de agosto el comité científico de Sheinbaum recomendó evaluar fracking en la cuenca que cubre Coahuila. La discusión no es solamente técnica. Es sobre quién es dueño del subsuelo, quién captura la renta y quién carga con lo que queda.
+description: El 6 de agosto el comité científico de Sheinbaum recomendó evaluar fracking en la cuenca que cubre Coahuila. Aquí ya hay pozos, ya hubo muertos, y hay literatura sobre lo que esto le hace a la salud de quien vive encima.
 ---
 
 El 6 de agosto de 2026, en la conferencia matutina, el Comité Científico sobre Soberanía Energética y Yacimientos de Gas Natural No Convencional entregó sus primeras conclusiones. La recomendación fue [continuar con la evaluación de viabilidad](https://www.proceso.com.mx/nacional/2026/8/7/comite-sobre-fracking-emite-recomendaciones-lo-prohibe-en-la-cuenca-tampico-misantla-377573.html) del desarrollo de yacimientos no convencionales en dos cuencas: Sabinas-Burro-Picachos, que abarca Coahuila y Nuevo León, y Burgos, en el noreste de Tamaulipas.
@@ -26,7 +26,7 @@ La fractura hidráulica consiste en perforar un pozo vertical de tres o cuatro k
 
 Cada fractura consume millones de litros de agua. Parte de esa agua regresa a la superficie convertida en agua de retorno, cargada de sales, metales pesados y compuestos de la propia formación geológica. El resto se queda abajo.
 
-En este momento no estamos debatiendo si esto llega o no a Coahuila, sino si se intensifica.
+En este momento ya no se debate si esto llega o no a Coahuila. Se debate si se intensifica.
 
 [CartoCrítica documentó](https://cartocritica.org.mx/2015/hay-fracking-en-coahuila/), con datos de la Comisión Nacional de Hidrocarburos, que [ya en 2015 había siete campos](https://www.sinembargo.mx/4789467/antes-del-gas-ahmsa-le-prometio-riqueza-a-coahuila-la-corrupcion-les-mato-ese-sueno/) de yacimientos no convencionales explorados con pozos de fracking en Coahuila: Chucla, Emergente, Gamma, Habano, Montañés, Nómada y Percutor, en los municipios de Hidalgo, Progreso, Guerrero y Nava. Para 2017, Vanguardia reportaba al menos once campos de exploración de Pemex con 56 pozos perforados con esta técnica.
 
@@ -38,13 +38,13 @@ Conviene saber qué significa eso en litros. CartoCrítica calculó, en una inve
 
 Todo eso es información de CartoCrítica y Fundar, lo hicieron reconstruyendo información que el gobierno dejó de publicar. La cartografía tuvo que rehacerse desde atlas geológicos, contratos y registros técnicos porque Pemex y la federación dejaron de difundir la ubicación de áreas, bloques y pozos no convencionales.
 
-Es importante tener en cuenta que estas cuencas son la continuación natural de las formaciones que del otro lado de la frontera se explotan como Eagle Ford. La misma roca, el mismo gas, la misma tecnología. La diferencia está en el precio de la fuerza de trabajo y en el rigor de la norma ambiental, y esa diferencia es justamente lo que vuelve rentable perforar de este lado.
+Y ojo con la geología, porque estas cuencas son la continuación natural de las formaciones que del otro lado de la frontera se explotan como Eagle Ford. La misma roca, el mismo gas, la misma tecnología. La diferencia está en el precio de la fuerza de trabajo y en el rigor de la norma ambiental, y esa diferencia es justamente lo que vuelve rentable perforar de este lado.
 
 ## La promesa de siempre
 
-El gobernador Manolo Jiménez ha dicho que el proyecto Gas Coahuila, es [una gran oportunidad para detonar la economía](https://www.elfinanciero.com.mx/empresas/2026/04/21/proyecto-gas-coahuila-salvaria-a-la-entidad-tras-la-quiebra-de-ahmsa/) de las regiones golpeadas por la quiebra de Altos Hornos de México. Habla de más de 50 mil empleos en diez años, y compara ese impulso con el que en su momento tuvo la industria siderúrgica en la región.
+El gobernador Manolo Jiménez ha dicho que el proyecto Gas Coahuila es [una gran oportunidad para detonar la economía](https://www.elfinanciero.com.mx/empresas/2026/04/21/proyecto-gas-coahuila-salvaria-a-la-entidad-tras-la-quiebra-de-ahmsa/) de las regiones golpeadas por la quiebra de Altos Hornos de México. Habla de más de 50 mil empleos en diez años, y compara ese impulso con el que en su momento tuvo la industria siderúrgica en la región.
 
-La industria siderúrgica que se pone como ejemplo es la que quebró, con el cierre de AHMSA [la empresa dejó sin trabajo a 6,500 personas](https://www.milenio.com/temas/region-carbonifera-de-coahuila) solo en Monclova. Y aquí hay que decir algo que el discurso oficial nunca dice: esos 6,500 desempleados no son un accidente lamentable que el fracking viene a remediar. **Son la condición que hace posible el fracking** en los términos en que se ofrece.
+La industria siderúrgica que se pone como ejemplo es la que quebró. Con el cierre de AHMSA [la empresa dejó sin trabajo a 6,500 personas](https://www.milenio.com/temas/region-carbonifera-de-coahuila) solo en Monclova. Y aquí hay que decir algo que el discurso oficial nunca dice: esos 6,500 desempleados no son un accidente lamentable que el fracking viene a remediar. **Son la condición que hace posible el fracking** en los términos en que se ofrece.
 
 Una masa de trabajadores disponibles y sin alternativa es lo que permite imponer salarios más bajos y condiciones más peligrosas, porque quien tiene hambre no negocia. La quiebra de AHMSA no dejó un vacío que el gas viene a llenar generosamente. Dejó una población desesperada, y sobre esa desesperación se construye la aceptación de un proyecto que en otras condiciones se discutiría de otro modo.
 
@@ -58,7 +58,7 @@ En Coahuila conviven la perforación horizontal de tres kilómetros con fractura
 
 Eso no es un país a medio modernizar donde una cosa va a reemplazar a la otra. Las dos se necesitan.
 
-El pocito abarata el carbón que compra la CFE y fija hacia abajo el piso de lo que un trabajador de la región puede exigir, y ese piso bajo es parte de lo que hace atractiva la inversión en la tecnología cara. La técnica más avanzada que se pueda importar convive perfectamente con la forma de explotación más brutal, porque una financia a la otra.
+El pocito abarata el carbón que compra la CFE y fija hacia abajo el piso de lo que un trabajador de la región puede exigir. La técnica más avanzada que se pueda importar convive perfectamente con la forma de explotación más brutal, porque las dos se abaratan con el mismo piso salarial.
 
 Por eso desconfío del argumento de que el problema del fracking es técnico y se arregla con mejores normas. La misma técnica, decidida y controlada por quienes trabajan en ella, plantearía preguntas completamente distintas.
 
@@ -68,7 +68,7 @@ Existe literatura sobre esto, no es abundante ni concluyente en todo y la mayor�
 
 En 2018, un equipo encabezado por Jameson Hirsch publicó en el *International Journal of Mental Health and Addiction* una revisión titulada *Psychosocial Impact of Fracking*. El hallazgo central es que aunque quienes viven en comunidades con fracking pueden experimentar [beneficios iniciales mínimos](https://link.springer.com/article/10.1007/s11469-017-9792-5), como ingresos por arrendamiento de tierras o desarrollo de infraestructura, también experimentan preocupación, ansiedad y depresión relacionadas con el estilo de vida, la salud, la seguridad y la seguridad financiera. Hay una formulación de esa revisión que describe a Coahuila: comunidades enteras pueden experimentar trauma colectivo como resultado del ciclo de auge y caída que ocurre cuando estas industrias irrumpen en la vida comunitaria. Los autores señalan además que las comunidades afectadas suelen ser ya vulnerables, pobres, rurales o indígenas, y que pueden seguir experimentando los efectos durante generaciones.
 
-El Ciclo de auge y caída es exactamente lo que la Región Carbonífera vivió con el carbón y con AHMSA, y lo que se le propone repetir ahora con el gas.
+El ciclo de auge y caída es exactamente lo que la Región Carbonífera vivió con el carbón y con AHMSA, y lo que se le propone repetir ahora con el gas.
 
 El trabajo más específico es el de Stephanie Malin, socióloga de Colorado State University, publicado en 2020 en *Energy Research & Social Science* bajo el título *Depressed democracy, environmental injustice*. Malin encuestó cientos de hogares en comunidades del norte de Colorado y visitó casas, escuelas y plataformas de perforación, e identificó [dos motores del daño psíquico](https://theconversation.com/fracking-takes-a-toll-on-mental-health-as-drilling-and-truck-traffic-rattle-neighborhoods-146528).
 
@@ -80,7 +80,7 @@ Malin llama a esto **democracia deprimida**, me gusta el nombre.
 
 La impotencia que ella mide como variable psicológica es la forma subjetiva de una relación de propiedad. Quien no controla los medios con que se produce tampoco controla las condiciones en que vive, y eso vale igual para el obrero separado del producto de su trabajo que para el habitante que respira un aire cuya composición determina alguien más y toma un agua cuya disponibilidad depende de contratos opacos.
 
-Lo que importa de esto es que la angustia de esas comunidades no es una percepción distorsionada que se corrija con más información o con terapia sino una lectura exacta y real de la posición que ocupan en su medio.
+Y lo que importa de esto es que la angustia de esas comunidades no es una percepción distorsionada, algo que se corrija con más información o con terapia. Es una lectura exacta y real de la posición que ocupan en su medio.
 
 La incertidumbre sostenida es una de las condiciones que más desorganiza el aparato psíquico. No es lo mismo enfrentar una amenaza definida que vivir bajo una amenaza que no se puede nombrar ni medir ni ubicar en el tiempo. Frente a lo primero hay respuesta posible, uno se prepara, se protege, huye o pelea. Frente a lo segundo no hay acción que descargue la tensión, y esa tensión sin salida es la que se cronifica.
 
@@ -126,15 +126,15 @@ Y volvamos al criterio con que se excluyó a Veracruz, la densidad poblacional e
 
 ## Qué exigir
 
-Pedir mejores estudios de impacto ambiental supone que el problema es de información, y que las instituciones actuarían distinto si supieran más, llevan tres décadas sabiendo lo suficiente y no hace diferencia.
+Pedir mejores estudios de impacto ambiental supone que el problema es de información, y que las instituciones actuarían distinto si supieran más. Llevan tres décadas sabiendo lo suficiente y no hace diferencia.
 
 **Lo primero** es la apertura completa de los expedientes, contratos, volúmenes de agua comprometidos, composición química de los fluidos de fractura, resultados de los pozos que ya operan y destino del agua de retorno. Sin eso no hay discusión posible, solo opiniones sobre un asunto que nadie puede verificar.
 
-**Lo segundo** es que quienes ponen el cuerpo tengan poder de decisión. Comités electos por los trabajadores de Pemex y de las contratistas, junto con delegados de las comunidades, con acceso a las instalaciones y capacidad real de detener una operación insegura. El que baja al pozo sabe antes que nadie cuándo algo va mal, y hoy no tiene ninguna herramienta para siquiera comunicarlo. Ciento veinte muertos sin un solo responsable en la cárcel es lo que pasa cuando esa herramienta no existe.
+**Lo segundo** es que quienes ponen el cuerpo tengan poder de decisión. Comités electos por los trabajadores de Pemex y de las contratistas, junto con delegados de las comunidades, con acceso a las instalaciones y capacidad real de detener una operación insegura. El que baja al pozo sabe antes que nadie cuándo algo va mal, y hoy no tiene ninguna herramienta para pararlo. Más de ciento veinte muertos sin un solo responsable en la cárcel es lo que pasa cuando esa herramienta no existe.
 
 **Lo tercero** es que las consultas obliguen. Lo del Cerro del Caballo, donde el 97% se pronunció y la autoridad autorizó de todas formas.
 
-Y **lo cuarto**, la propiedad nacional del subsuelo debe significar algo. Hoy la nación es dueña en el papel mientras la renta se va por contratos de servicios, que es la misma operación del carbón con otro nombre.
+Y **lo cuarto**, la propiedad nacional del subsuelo debe significar algo. Hoy la nación es dueña en el papel mientras el dinero se va por contratos de servicios. Con el carbón pasó igual durante más de un siglo, y la Región Carbonífera no es hoy la más próspera del estado.
 
 Mientras lo que se produce se decida según lo que rinde, el agua de una región semidesértica va a seguir valiendo menos que el gas que tiene debajo, porque el gas se vende y el agua de la gente no cotiza (todavía).
 
