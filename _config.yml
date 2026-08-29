@@ -8,3 +8,8 @@ permalink: /articulos/:title/
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  
+collections:
+  qa_casos:
+    output: true
+    permalink: /qa/casos/:slug/
