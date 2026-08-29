@@ -1,0 +1,36 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title }} — Portafolio QA</title>
+<meta name="robots" content="noindex, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/qa-style.css' | relative_url }}">
+</head>
+<body>
+
+<div class="wrap">
+  <a class="back" href="{{ '/qa/' | relative_url }}">&larr; Volver al portafolio</a>
+
+  <article class="detail">
+    <div class="breadcrumb">{{ page.breadcrumb }}</div>
+    <h3 class="detail-title">{{ page.title }}</h3>
+    <div class="detail-meta">{{ page.tool_meta }}</div>
+
+    {{ content }}
+  </article>
+
+  <footer>
+    <span>Manuel Absaí Zapata Vásquez</span>
+    <span>manuelabsai@outlook.com</span>
+  </footer>
+</div>
+
+</body>
+</html>

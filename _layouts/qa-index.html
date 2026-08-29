@@ -1,0 +1,109 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title }}</title>
+<meta name="robots" content="noindex, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/qa-style.css' | relative_url }}">
+</head>
+<body>
+
+<div class="wrap">
+
+  <header>
+    <div class="kicker">Portafolio de aseguramiento de calidad</div>
+    <h1>Manuel Absaí Zapata Vásquez</h1>
+    <p class="role">QA Analyst Jr. · Manual Tester</p>
+    <p class="summary">Ingeniero en Desarrollo de Software con experiencia práctica en diseño y ejecución de casos de prueba funcionales, exploratorios y de regresión. Este portafolio reúne trabajo real: historias de usuario, suites de prueba, defectos documentados y scripts de automatización, con su evidencia.</p>
+    <div class="contact">
+      <span>Saltillo, Coahuila</span>
+      <a href="mailto:manuelabsai@outlook.com">manuelabsai@outlook.com</a>
+      <a href="tel:8442255386">844 225 5386</a>
+      <a href="https://www.linkedin.com/in/manuel-absa%C3%AD/">LinkedIn</a>
+    </div>
+  </header>
+
+  <div class="capabilities">
+    <div class="cap">
+      <h4>Diseño de pruebas</h4>
+      <p>Partición de equivalencia, valores límite, casos positivos y negativos a partir de criterios de aceptación.</p>
+    </div>
+    <div class="cap">
+      <h4>Herramientas</h4>
+      <p>Cypress, Katalon Recorder, Postman, Selenium IDE, Jira, TestRail, SQL Server.</p>
+    </div>
+    <div class="cap">
+      <h4>Proceso</h4>
+      <p>Reporte de defectos con pasos de reproducción y evidencia. Scrum y Kanban.</p>
+    </div>
+  </div>
+
+  {% assign manual = site.qa_casos | where: "category", "manual" | sort: "order" %}
+  {% assign automatizacion = site.qa_casos | where: "category", "automatizacion" | sort: "order" %}
+
+  <!-- ===== PRUEBAS MANUALES ===== -->
+  {% if manual.size > 0 %}
+  <section class="section">
+    <div class="section-aside">
+      <div class="sticky">
+        <h2>Pruebas<br>manuales</h2>
+        <div class="aside-count">{{ manual.size }} caso{% unless manual.size == 1 %}s{% endunless %}</div>
+        <p class="aside-note">{{ page.manual_note }}</p>
+      </div>
+    </div>
+    <div class="section-cases">
+      {% for caso in manual %}
+      <a class="case" href="{{ caso.url | relative_url }}">
+        <p class="case-title">{{ caso.title }}</p>
+        <p class="case-desc">{{ caso.summary }}</p>
+        <div class="case-meta">
+          {% for m in caso.meta %}<b>{{ m }}</b>{% unless forloop.last %} · {% endunless %}{% endfor %}
+          {% if caso.findings %} · <span class="findings">{{ caso.findings }}</span>{% endif %}
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- ===== AUTOMATIZACIÓN ===== -->
+  {% if automatizacion.size > 0 %}
+  <section class="section">
+    <div class="section-aside">
+      <div class="sticky">
+        <h2>Automatización</h2>
+        <div class="aside-count">{{ automatizacion.size }} caso{% unless automatizacion.size == 1 %}s{% endunless %}</div>
+        <p class="aside-note">{{ page.automation_note }}</p>
+      </div>
+    </div>
+    <div class="section-cases">
+      {% for caso in automatizacion %}
+      <a class="case" href="{{ caso.url | relative_url }}">
+        <p class="case-title">{{ caso.title }}</p>
+        <p class="case-desc">{{ caso.summary }}</p>
+        <div class="case-meta">
+          {% for m in caso.meta %}<b>{{ m }}</b>{% unless forloop.last %} · {% endunless %}{% endfor %}
+          {% if caso.findings %} · <span class="findings">{{ caso.findings }}</span>{% endif %}
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <footer>
+    <span>Manuel Absaí Zapata Vásquez</span>
+    <span>manuelabsai@outlook.com</span>
+  </footer>
+
+</div>
+
+</body>
+</html>
