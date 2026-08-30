@@ -4,7 +4,7 @@ title: "Fracking en Coahuila: el noreste no será zona de sacrificio"
 date: 2026-08-23
 tag: Análisis
 readTime: 20 min
-featured: true
+featured: false
 description: El 6 de agosto el comité científico de Sheinbaum recomendó evaluar fracking en la cuenca que cubre Coahuila. Aquí ya hay pozos, ya hubo muertos, y hay literatura sobre lo que esto le hace a la salud de quien vive encima.
 ---
 
