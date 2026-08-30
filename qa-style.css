@@ -214,6 +214,56 @@ pre.code .s{color:#a8c99a;}
 .figs{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
 .figs.single{grid-template-columns:1fr;max-width:66ch;}
 
+/* ---------- tabla técnica ampliada (pruebas manuales) ---------- */
+.table-scroll{overflow-x:auto;margin:0 -4px;padding:0 4px;}
+
+table.matrix2{width:100%;min-width:760px;border-collapse:collapse;font-size:13px;}
+table.matrix2 th{
+  text-align:left;font-family:'IBM Plex Mono',monospace;font-weight:500;
+  font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--faint);
+  padding:0 16px 10px 0;border-bottom:1px solid var(--rule);white-space:nowrap;
+}
+table.matrix2 td{
+  padding:14px 16px 14px 0;border-bottom:1px solid var(--rule-soft);
+  vertical-align:top;color:var(--body);
+}
+table.matrix2 td:first-child{width:26px;}
+.rownum{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--faint);}
+tr.fail td:first-child{position:relative;}
+tr.fail td:first-child::before{
+  content:"";position:absolute;left:-16px;top:0;bottom:0;width:3px;background:var(--guindo);
+}
+.case-name{color:var(--ink);font-weight:500;}
+.io-value.obtenido{color:var(--body);}
+tr.fail .io-value.obtenido{color:var(--guindo);font-weight:500;}
+
+/* ---------- tabla de aserciones (automatización) ---------- */
+table.assertions{width:100%;min-width:680px;border-collapse:collapse;font-size:13px;}
+table.assertions th{
+  text-align:left;font-family:'IBM Plex Mono',monospace;font-weight:500;
+  font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--faint);
+  padding:0 16px 10px 0;border-bottom:1px solid var(--rule);white-space:nowrap;
+}
+table.assertions td{
+  padding:14px 16px 14px 0;border-bottom:1px solid var(--rule-soft);
+  vertical-align:top;color:var(--body);
+}
+table.assertions td:first-child{width:26px;}
+.step-name{color:var(--ink);font-weight:500;}
+.assert-code{
+  font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--muted);
+  background:var(--rule-soft);padding:2px 6px;border-radius:2px;
+}
+tr.fail-case td:first-child{position:relative;}
+tr.fail-case td:first-child::before{
+  content:"";position:absolute;left:-16px;top:0;bottom:0;width:3px;background:var(--guindo);
+}
+
+.compare-note{
+  font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--faint);
+  background:var(--surface);border:1px dashed var(--rule);padding:9px 14px;margin-top:14px;
+}
+
 footer{
   margin-top:76px;border-top:1px solid var(--rule);
   padding:26px 0 60px;
