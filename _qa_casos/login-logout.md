@@ -21,6 +21,48 @@ sitemap: false
   </table>
 </div>
 
+<div class="block" style="max-width:none;">
+  <h4 class="blocktitle">Aserciones ejecutadas</h4>
+  <div class="table-scroll">
+    <table class="assertions">
+      <thead>
+        <tr><th></th><th>Paso / aserción</th><th>Dato de entrada</th><th>Resultado esperado</th><th>Resultado obtenido</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="rownum">1</span></td>
+          <td class="step-name">Iniciar sesión con credenciales válidas</td>
+          <td>Correo y contraseña de prueba</td>
+          <td>La sesión inicia correctamente</td>
+          <td>Login exitoso</td>
+        </tr>
+        <tr>
+          <td><span class="rownum">2</span></td>
+          <td class="step-name">Verificar confirmación de inicio de sesión</td>
+          <td>—</td>
+          <td><span class="assert-code">.alert-success.should("contain.text","logged")</span></td>
+          <td>Mensaje de confirmación mostrado</td>
+        </tr>
+        <tr>
+          <td><span class="rownum">3</span></td>
+          <td class="step-name">Verificar nombre de usuario visible</td>
+          <td>—</td>
+          <td>"Manuel" visible en el menú</td>
+          <td>Nombre de usuario visible tras el login</td>
+        </tr>
+        <tr>
+          <td><span class="rownum">4</span></td>
+          <td class="step-name">Cerrar sesión y verificar confirmación</td>
+          <td>—</td>
+          <td><span class="assert-code">.alert-success.should("contain.text","logged out")</span></td>
+          <td>Mensaje de cierre de sesión confirmado</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="compare-note">← desliza en móvil si la tabla no cabe en pantalla</div>
+</div>
+
 <div class="block">
   <h4 class="blocktitle">Script</h4>
   <pre class="code">describe("Test suite - conjunto de pruebas", () => {

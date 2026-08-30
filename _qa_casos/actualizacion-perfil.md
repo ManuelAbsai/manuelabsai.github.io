@@ -24,20 +24,67 @@ sitemap: false
   </div>
 </div>
 
-<div class="block">
+<div class="block" style="max-width:none;">
   <h4 class="blocktitle">Suite de pruebas</h4>
-  <table class="matrix">
-    <thead><tr><th></th><th>Caso</th><th>Resultado</th></tr></thead>
-    <tbody>
-      <tr><td>1</td><td>Actualizar todos los campos con datos válidos</td><td class="result ok">Aprobado</td></tr>
-      <tr><td>2</td><td>Guardar dejando los campos en blanco</td><td class="result ok">Aprobado</td></tr>
-      <tr><td>3</td><td>Nombre y apellido con caracteres no alfanuméricos, resto válido</td><td class="result gap">Fallido</td></tr>
-      <tr><td>4</td><td>Nombre y apellido válidos, dirección y teléfono inválidos</td><td class="result ok">Aprobado</td></tr>
-      <tr><td>5</td><td>Cambiar contraseña con cadena alfabética válida</td><td class="result gap">Fallido</td></tr>
-      <tr><td>6</td><td>Cambiar contraseña con cadena no alfabética</td><td class="result gap">Fallido</td></tr>
-      <tr><td>7</td><td>Cambiar contraseña dejando el campo vacío</td><td class="result gap">Fallido</td></tr>
-    </tbody>
-  </table>
+  <div class="table-scroll">
+    <table class="matrix2">
+      <thead>
+        <tr><th></th><th>Caso de prueba</th><th>Datos de entrada</th><th>Resultado esperado</th><th>Resultado obtenido</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="rownum">1</span></td>
+          <td class="case-name">Actualizar todos los campos con datos válidos</td>
+          <td>Nombre, apellido, dirección, teléfono, hobby</td>
+          <td>El usuario se actualiza exitosamente</td>
+          <td class="io-value obtenido">Mensaje "The profile has been saved successful"</td>
+        </tr>
+        <tr>
+          <td><span class="rownum">2</span></td>
+          <td class="case-name">Guardar dejando los campos en blanco</td>
+          <td>Campos vacíos</td>
+          <td>El sistema no permite guardar sin datos</td>
+          <td class="io-value obtenido">Botón "save" bloqueado; error "First Name is required"</td>
+        </tr>
+        <tr class="fail">
+          <td><span class="rownum">3</span></td>
+          <td class="case-name">Nombre y apellido con caracteres no alfanuméricos, resto válido</td>
+          <td>Nombre/apellido: <code>!"#$</code> · resto válido</td>
+          <td>El sistema debe rechazar y mostrar error</td>
+          <td class="io-value obtenido">El sistema guarda los cambios sin validar</td>
+        </tr>
+        <tr>
+          <td><span class="rownum">4</span></td>
+          <td class="case-name">Nombre y apellido válidos, dirección y teléfono inválidos</td>
+          <td>Teléfono: <code>abc</code></td>
+          <td>No debe permitir guardar datos de contacto inválidos</td>
+          <td class="io-value obtenido">El campo teléfono rechaza caracteres no numéricos</td>
+        </tr>
+        <tr class="fail">
+          <td><span class="rownum">5</span></td>
+          <td class="case-name">Cambiar contraseña con cadena alfabética válida</td>
+          <td>Nueva contraseña: <code>Abcde1234?</code></td>
+          <td>El sistema debe permitir el cambio</td>
+          <td class="io-value obtenido">Error desconocido, el cambio nunca se completa</td>
+        </tr>
+        <tr class="fail">
+          <td><span class="rownum">6</span></td>
+          <td class="case-name">Cambiar contraseña con cadena no alfabética</td>
+          <td>Nueva contraseña: <code>!"#$</code></td>
+          <td>El sistema debe rechazar y mostrar error</td>
+          <td class="io-value obtenido">Error desconocido, el cambio nunca se completa</td>
+        </tr>
+        <tr class="fail">
+          <td><span class="rownum">7</span></td>
+          <td class="case-name">Cambiar contraseña dejando el campo vacío</td>
+          <td>Contraseña vacía</td>
+          <td>El sistema debe rechazar y mostrar error</td>
+          <td class="io-value obtenido">Error desconocido, el cambio nunca se completa</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="compare-note">← desliza en móvil si la tabla no cabe en pantalla</div>
 </div>
 
 <div class="block">

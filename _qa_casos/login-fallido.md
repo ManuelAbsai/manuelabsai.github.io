@@ -21,6 +21,41 @@ sitemap: false
   </table>
 </div>
 
+<div class="block" style="max-width:none;">
+  <h4 class="blocktitle">Aserciones ejecutadas</h4>
+  <div class="table-scroll">
+    <table class="assertions">
+      <thead>
+        <tr><th></th><th>Paso / aserción</th><th>Dato de entrada</th><th>Resultado esperado</th><th>Resultado obtenido</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="rownum">1</span></td>
+          <td class="step-name">Ingresar credenciales inválidas y enviar login</td>
+          <td><code>CorreError@outlook.com</code> / <code>ContraseñaError</code></td>
+          <td>El sistema rechaza el acceso</td>
+          <td>Acceso rechazado, sin sesión iniciada</td>
+        </tr>
+        <tr>
+          <td><span class="rownum">2</span></td>
+          <td class="step-name">Verificar URL tras el intento fallido</td>
+          <td>—</td>
+          <td><span class="assert-code">cy.url().should("eq", ".../login")</span></td>
+          <td>Permanece en /login, sin acceso a zona restringida</td>
+        </tr>
+        <tr>
+          <td><span class="rownum">3</span></td>
+          <td class="step-name">Verificar mensaje de error visible</td>
+          <td>—</td>
+          <td><span class="assert-code">.alert-danger.should("contain.text","not exist")</span></td>
+          <td>Alerta roja mostrada con el texto esperado</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="compare-note">← desliza en móvil si la tabla no cabe en pantalla</div>
+</div>
+
 <div class="block">
   <h4 class="blocktitle">Script</h4>
   <pre class="code">describe ("Test suite - conjunto de pruebas", () => {

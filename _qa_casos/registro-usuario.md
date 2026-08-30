@@ -23,22 +23,51 @@ sitemap: false
   </div>
 </div>
 
-<div class="block">
+<div class="block" style="max-width:none;">
   <h4 class="blocktitle">Suite de pruebas</h4>
-  <table class="matrix">
-    <thead><tr><th></th><th>Caso</th><th>Resultado</th></tr></thead>
-    <tbody>
-      <tr><td>1</td><td>Registrar un nuevo usuario llenando todos los campos correctamente</td><td class="result ok">Aprobado</td></tr>
-      <tr><td>2</td><td>Registrar dejando los campos requeridos en blanco</td><td class="result ok">Aprobado</td></tr>
-      <tr><td>3</td><td>Registrar con una contraseña de 4 caracteres</td><td class="result ok">Aprobado</td></tr>
-      <tr><td>4</td><td>Registrar un usuario ya existente</td><td class="result ok">Aprobado</td></tr>
-    </tbody>
-  </table>
+  <div class="table-scroll">
+    <table class="matrix2">
+      <thead>
+        <tr><th></th><th>Caso de prueba</th><th>Datos de entrada</th><th>Resultado esperado</th><th>Resultado obtenido</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="rownum">1</span></td>
+          <td class="case-name">Registrar un nuevo usuario llenando todos los campos correctamente</td>
+          <td>Login, nombre, apellido, contraseña</td>
+          <td>El usuario se registra exitosamente</td>
+          <td class="io-value obtenido">Mensaje confirmando el registro</td>
+        </tr>
+        <tr>
+          <td><span class="rownum">2</span></td>
+          <td class="case-name">Registrar dejando los campos requeridos en blanco</td>
+          <td>Sin datos</td>
+          <td>El sistema debe solicitar los datos faltantes</td>
+          <td class="io-value obtenido">Botón de registro bloqueado (sombreado)</td>
+        </tr>
+        <tr>
+          <td><span class="rownum">3</span></td>
+          <td class="case-name">Registrar con una contraseña de 4 caracteres</td>
+          <td>Contraseña: 4 caracteres</td>
+          <td>Debe mostrar error indicando el mínimo requerido</td>
+          <td class="io-value obtenido">Mensaje solicitando el mínimo de caracteres</td>
+        </tr>
+        <tr>
+          <td><span class="rownum">4</span></td>
+          <td class="case-name">Registrar un usuario ya existente</td>
+          <td>Login y contraseña de una cuenta ya registrada</td>
+          <td>Debe indicar que el usuario ya existe</td>
+          <td class="io-value obtenido">Mensaje confirmando que el usuario ya existe</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="compare-note">← desliza en móvil si la tabla no cabe en pantalla</div>
 </div>
 
 <div class="block">
   <h4 class="blocktitle">Resultado</h4>
-  <p style="font-size:14.5px;max-width:62ch;">En los cuatro casos el sistema respondió conforme a los criterios de aceptación: bloqueó el botón de registro con campos vacíos, mostró el mensaje de longitud mínima ante una contraseña corta, e impidió registrar dos veces el mismo usuario. No se documentaron defectos en esta suite.</p>
+  <p style="font-size:14.5px;max-width:62ch;">En los cuatro casos el sistema respondió conforme a los criterios de aceptación. No se documentaron defectos en esta suite.</p>
 </div>
 
 <div class="block">

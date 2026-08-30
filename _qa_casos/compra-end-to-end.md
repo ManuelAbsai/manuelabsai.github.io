@@ -21,6 +21,41 @@ sitemap: false
   </table>
 </div>
 
+<div class="block" style="max-width:none;">
+  <h4 class="blocktitle">Aserciones ejecutadas</h4>
+  <div class="table-scroll">
+    <table class="assertions">
+      <thead>
+        <tr><th></th><th>Paso / aserción</th><th>Dato de entrada</th><th>Resultado esperado</th><th>Resultado obtenido</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="rownum">1</span></td>
+          <td class="step-name">Agregar producto al carrito</td>
+          <td>Producto "Yellow Duck"</td>
+          <td>El producto se agrega y el carrito se actualiza</td>
+          <td>Carrito actualizado (requirió una pausa por carga dinámica)</td>
+        </tr>
+        <tr>
+          <td><span class="rownum">2</span></td>
+          <td class="step-name">Llenar datos del comprador y confirmar orden</td>
+          <td>Nombre, dirección, ciudad, país, correo, teléfono</td>
+          <td>La orden se confirma sin errores</td>
+          <td>Formulario aceptado, orden enviada</td>
+        </tr>
+        <tr>
+          <td><span class="rownum">3</span></td>
+          <td class="step-name">Verificar mensaje de compra exitosa</td>
+          <td>—</td>
+          <td><span class="assert-code">verifyText → "Thank you for your purchase..."</span></td>
+          <td>Mensaje detectado correctamente, flujo completado</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="compare-note">← desliza en móvil si la tabla no cabe en pantalla</div>
+</div>
+
 <div class="block">
   <h4 class="blocktitle">Script</h4>
   <pre class="code">open	https://shop.geekqa.net/litecart/public_html/

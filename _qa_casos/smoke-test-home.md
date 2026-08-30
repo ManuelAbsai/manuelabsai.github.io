@@ -21,6 +21,41 @@ sitemap: false
   </table>
 </div>
 
+<div class="block" style="max-width:none;">
+  <h4 class="blocktitle">Aserciones ejecutadas</h4>
+  <div class="table-scroll">
+    <table class="assertions">
+      <thead>
+        <tr><th></th><th>Paso / aserción</th><th>Dato de entrada</th><th>Resultado esperado</th><th>Resultado obtenido</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="rownum">1</span></td>
+          <td class="step-name">Verificar logo y banner de la página de inicio</td>
+          <td>—</td>
+          <td><span class="assert-code">img[alt="Rocket Cart"].should("be.visible")</span></td>
+          <td>Logo y banner visibles</td>
+        </tr>
+        <tr>
+          <td><span class="rownum">2</span></td>
+          <td class="step-name">Verificar secciones de producto presentes</td>
+          <td>—</td>
+          <td>"Campaign", "Popular" y "Latest Products" visibles</td>
+          <td>Las tres secciones se detectaron correctamente</td>
+        </tr>
+        <tr>
+          <td><span class="rownum">3</span></td>
+          <td class="step-name">Verificar que cada sección liste productos</td>
+          <td>—</td>
+          <td><span class="assert-code">.should("have.length.at.least", 1)</span></td>
+          <td>Al menos un producto detectado en cada sección</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="compare-note">← desliza en móvil si la tabla no cabe en pantalla</div>
+</div>
+
 <div class="block">
   <h4 class="blocktitle">Script</h4>
   <pre class="code">describe("Test suite - conjunto de pruebas", () => {
