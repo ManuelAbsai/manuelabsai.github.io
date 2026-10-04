@@ -4,7 +4,7 @@ title: "La soberanía digital se sostiene"
 date: 2026-08-30
 tag: Ensayo
 readTime: 13 min
-featured: true
+featured: false
 description: China ordenó a sus agencias de gobierno salir de Windows. Venezuela lo decretó en 2004 y no se cumplió. Francia lleva dieciocho años y va en el 97%. La diferencia no está en el software.
 ---
 
