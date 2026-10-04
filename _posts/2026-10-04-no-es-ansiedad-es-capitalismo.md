@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "No es ansiedad, es capitalismo: lo que el sticker no alcanza a decir"
+title: "No es ansiedad, es capitalismo"
 date: 2026-10-04
 tag: Ensayo
 readTime: 11 min
